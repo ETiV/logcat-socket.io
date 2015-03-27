@@ -255,6 +255,10 @@
       var sock = dict_sockets[data.socket];
       if (sock && sock.isOn) {
         sock.count++;
+        var str = String(data.string).trim();
+        if (str == '') {
+          str = '<empty>';
+        }
         vm_log_list.logs.push({
           name: data.socket,
           tag: sock.tag,
