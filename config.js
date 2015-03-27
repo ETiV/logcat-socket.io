@@ -8,6 +8,10 @@ module.exports = {
   },
   'sockets': [
     {
+      name: 'PLAIN',
+      tag: 'plain'
+    },
+    {
       name: 'INFO',
       tag: 'info'
     },
