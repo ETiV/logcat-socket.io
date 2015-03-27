@@ -237,7 +237,7 @@
       $('.row-offcanvas').toggleClass('active');
     });
 
-    var socket = io('ws://localhost:3080/');
+    var socket = io('ws://' + window.location.host + '/');
 
     var dict_sockets = {};
 
