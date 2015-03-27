@@ -9,19 +9,19 @@ module.exports = {
   'sockets': [
     {
       name: 'PLAIN',
-      tag: 'plain'
+      style: 'plain'
     },
     {
       name: 'INFO',
-      tag: 'info'
+      style: 'info'
     },
     {
       name: 'WARNING',
-      tag: 'warning'
+      style: 'warning'
     },
     {
       name: 'DANGER',
-      tag: 'danger'
+      style: 'danger'
     }
   ]
 };

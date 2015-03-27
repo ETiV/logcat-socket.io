@@ -179,7 +179,7 @@
           style="/*white-space: pre-line;line-break: strict;*/">
         <template v-repeat="logs">
           <dt class="col-md-2 text-right log-name">{{name}}</dt>
-          <dd class="col-md-10 log-body log-{{tag}}">{{body}}</dd>
+          <dd class="col-md-10 log-body log-{{style}}">{{body}}</dd>
         </template>
       </dl>
     </div>
@@ -261,7 +261,7 @@
         }
         vm_log_list.logs.push({
           name: data.socket,
-          tag: sock.tag,
+          style: sock.style,
           body: str
         });
 
